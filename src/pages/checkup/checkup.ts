@@ -35,9 +35,9 @@ export class CheckupPage {
 	{id:"C01",name:"SILVER PACKAGE",description:"",price:1900,refer:"SIL"},
 	{id:"C01",name:"GOLD PACKAGE",description:"",price:2900,refer:"GOL"},
 	{id:"C01",name:"PLATINUM PACKAGE",description:"",price:3600,refer:"PLA"},
-	{id:"C01",name:"OSTEOPOROSIS SCREENING",description:"",price:550,refer:"OST"},
+	{id:"C01",name:"OSTEOPOROSIS SCR",description:"",price:550,refer:"OST"},
 	{id:"C01",name:"DIGESTIVE CHECK-UP",description:"",price:1600,refer:"DIG"},
-	{id:"C01",name:"CANCER EARLY DETECTION",description:"",price:4000,refer:"CAN"},
+	{id:"C01",name:"CANCER EARLY DETECT",description:"",price:4000,refer:"CAN"},
 	{id:"C01",name:"CT SCAN",description:"",price:1500,refer:"FCA"}
 	];
 	}
