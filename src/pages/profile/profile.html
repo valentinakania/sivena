@@ -1,0 +1,45 @@
+
+<ion-header>
+<ion-navbar hideBackButton="true" color="secondary" style="height:40px;">
+    <ion-title>
+      <img src="assets/icon-white.png" style="width:100px;margin-left:auto;margin-right:auto;display: block;">
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="container-box">
+    <div  style="width: 100%; height: 160px; background-color: #718fb7">
+    <div style=" color:#FBFBFB; letter-spacing:4px; font-size:14px; text-align:center">
+     <br><p style="font-size:9px"> PROFILE </p><br><br> KEYNE KASSAPA</div>
+    </div>
+    <div id="photoprof">
+      <img id="avatar" src="{{base64Image}}">
+      <button ion-button block class="butt" (click)="openMenu()" clear>
+        set profile picture
+      </button>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <p><b>Jenis Kelamin</b>: Perempuan</p>
+    <p><b>Umur</b>: 19 Tahun</p>
+    <p><b>Tanggal Lahir</b>: 2 Mei 1997</p>
+    <p><b>Nomor Telepon</b>: 082131024566</p>
+  </div>
+
+  <div class="info-riwayat">
+    <ion-list>
+      <ion-list-header>
+        Riwayat
+      </ion-list-header>
+      <ion-item style="margin-left:25px; font-size:11px; letter-spacing: 1px;">Alergi Bulu</ion-item>
+    </ion-list>
+
+  </div>
+
+  <div class="button-edit">
+    <button ion-button outline side="right" style="margin-bottom:1cm">Edit</button>
+  </div>
+</ion-content>

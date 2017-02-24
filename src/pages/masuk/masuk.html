@@ -1,0 +1,74 @@
+<ion-header >
+  <ion-navbar color="secondary">
+    <ion-title>
+      Daftar
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding >
+    <ion-list >
+    <div style="line-height: 115%; color:#545353; margin: 0.5cm 0cm 0cm 0.5cm">
+    	<div style="font-size:64px;letter-spacing: 10px;"><b>HALO</b></div>
+    <br>
+    <div style="letter-spacing: 5px; font-size:9px">SELAMAT DATANG DI VENA!</div>
+    
+    </div>
+    <ion-list inset>
+
+      <ion-item>
+        <ion-label>Full Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Username</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Jenis Kelamin</ion-label>
+        
+        <ion-select>
+          <ion-option value="nes">Perempuan</ion-option>
+          <ion-option value="n64">Laki-laki</ion-option>
+        </ion-select>
+        
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Tanggal Lahir</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>No. Identitas</ion-label>
+        <ion-input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>No. Telepon</ion-label>
+        <ion-input type='text' onkeypress='return event.charCode >= 48 && event.charCode <= 57'></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Alamat</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <button ion-button style="margin: 0.5cm 0cm 0cm 5cm;" color="secondary" [navPush]="tutorpage">Submit</button>
+      
+    </ion-list>
+    </ion-list>
+</ion-content>

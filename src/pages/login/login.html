@@ -1,0 +1,35 @@
+<ion-header >
+  <ion-navbar color="secondary">
+    <ion-title>
+      Masuk
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding >
+    <ion-list >
+    <div style="line-height: 115%; color:#545353; margin: 0.5cm 0cm 0cm 0.5cm">
+    	<div style="font-size:64px;letter-spacing: 10px;"><b>HI!</b></div>
+    <br>
+    <div style="letter-spacing: 5px; font-size:9px">SELAMAT DATANG KEMBALI</div>
+    
+    </div>
+    <ion-list inset>
+
+      <ion-item>
+        <ion-label>Username</ion-label>
+        <ion-input type="text" [(ngModel)]="username"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      
+      
+      <button ion-button style="margin: 0.5cm 0cm 0cm 5cm;" color="secondary" (click)=login()>Submit</button>
+      
+    </ion-list>
+    </ion-list>
+</ion-content>
